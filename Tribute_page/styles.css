@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.container {
+  width: 50%;
+  padding: 4rem 5rem;
+  background-color: rgba(183, 0, 255, 0.048);
+  border: 0.8rem solid rebeccapurple;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.header-img {
+  max-width: 12rem;
+  border-radius: 50%;
+}
+
+.header-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-description-name {
+  font-size: 3rem;
+}
+
+.header-description-year {
+  align-self: flex-end;
+  font-size: 1.2rem;
+}
+
+.about {
+  margin-bottom: 1.1rem;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.bio {
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.bio-list {
+  list-style-position: inside;
+}
+
+.bio-element {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.footer {
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 44px;
+}
+
+.footer-site:link {
+  text-decoration: none;
+}
